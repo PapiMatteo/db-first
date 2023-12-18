@@ -1,0 +1,17 @@
+CARS
+
+id - INT - UNSIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+poster - VARCHAR(255) - NULL
+plate - VARCHAR(7) - NOTNULL - UNIQUE
+brands - VARCHAR(255) - NOTNULL
+model - VARCHAR(255) - NOTNULL
+models_year - YEAR
+accidents_number - TINYINT - NOTNULL - DEFAULT(0)
+is_damaged - TINYINT - NOTNULL - DEAFULT(0)
+kilometers - MEDIUMINT - NOTNULL - DEFAULT(0)
+ignition_type - VARCHAR(255) - NOTNULL
+previews_owner_number - TINYINT - NULL
+car_details - TEXT - NULL
+price - DECIMAL(8 , 2) - NOTNULL
+discount_percent - DECIMAL(5,2) - NOTNULL - DEFAULT(0) 
+
